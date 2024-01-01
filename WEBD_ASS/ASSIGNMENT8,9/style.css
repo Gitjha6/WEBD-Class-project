@@ -1,0 +1,54 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  background-image: url('../IMAGES/image.jpg');
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+
+h1 {
+  font-family: 'Verdana', sans-serif;
+  color: #0066cc;
+  text-align: center;
+  margin: 20px;
+}
+
+p {
+  font-style: italic;
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-container {
+  margin: 40px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('../IMAGES/ankit.jpg');
+  background-size: cover;
+  padding: 20px;
+}
+
+a:link {
+  color: #0066cc;
+  text-decoration: none; 
+}
+
+a:visited {
+  color:red; 
+}
+a:active{
+  color: green;
+}
+
+a:hover {
+  color:yellow; 
+}
